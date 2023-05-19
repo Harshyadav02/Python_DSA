@@ -26,10 +26,13 @@ class LinkedList:
     
     # Printing data to the List
     def printList(self):
-        current = self.head
-        while current != None:
-            print(current.data,end=' ')
-            current = current.next
+        if self.head == None:
+            print("List Is Empty ")
+        else:    
+            current = self.head
+            while current != None:
+                print(current.data,end=' ')
+                current = current.next
 # Creating an object linked list
 my_list = LinkedList()
 
