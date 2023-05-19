@@ -38,7 +38,7 @@ my_list = LinkedList()
 
 while True:
     print()
-    print("press choose an valid option For Linked List: ")
+    print(" choose an valid option For Linked List: ")
    
     print('''
     1)  Insert data
