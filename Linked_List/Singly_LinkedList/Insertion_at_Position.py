@@ -1,6 +1,6 @@
 ''' Inserting an Element to a Pos In singly LinkedList
 
-It Takes O(1) time complexity to Insert the element '''
+It Takes O(n) time complexity to Insert the element '''
 
 class Node :
 
