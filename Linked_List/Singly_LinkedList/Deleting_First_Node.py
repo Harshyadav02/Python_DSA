@@ -28,9 +28,9 @@ class LinkedList:
         else:
             current = self.head
             while current is not None:
-                print(current.data,end=' ')
+                print(current.data,end='->')
                 current = current.next
-
+            print("None")
 my_list = LinkedList()
 
 while True:

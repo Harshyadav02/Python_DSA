@@ -35,8 +35,9 @@ class LinkedList:
         else:    
             current_node = self.head 
             while current_node != None:
-                print(current_node.data,end=' ')
+                print(current_node.data,end='-->')
                 current_node = current_node.next
+            print("None")
 # Creating an object linked list
 my_list = LinkedList()
 
