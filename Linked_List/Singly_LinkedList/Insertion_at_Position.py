@@ -12,7 +12,7 @@ class LinkedList:
 
     def __init__(self) -> None:
 
-        # here head will point to the first node of Linled List
+        # here head will point to the first node of Linked List
         self.head = None
 
     # Inserting data to Linked List

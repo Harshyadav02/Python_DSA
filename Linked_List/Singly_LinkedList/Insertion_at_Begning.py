@@ -18,12 +18,12 @@ class LinkedList:
     # Inserting data to Linked List
     def insertAtBegning(self,data):
         newnode = Node(data) # Creating Object Of Node class
-        if self.head == None:
+        if self.head == None: # Base case
             self.head = newnode
         else:
-            newnode.next = self.head
-            self.head = newnode
-        print("Element Inserted At Begining ")
+            newnode.next = self.head # here newnode will point to the head
+            self.head = newnode # here newnode will be head
+        print("Element Inserted At Begining ") 
     
     # Printing data to the List
     def printList(self):

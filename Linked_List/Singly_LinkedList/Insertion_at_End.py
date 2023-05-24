@@ -21,10 +21,10 @@ class LinkedList:
         if self.head == None:
             self.head = newnode
         else:
-            current = self.head
-            while current.next != None:
-                current = current.next
-            current.next = newnode
+            current_node = self.head
+            while current_node.next != None:
+                current_node = current_node.next 
+            current_node.next = newnode
         print("Element Inserted At End ")
     
     
@@ -33,10 +33,10 @@ class LinkedList:
         if self.head == None:
             print("List Is Empty ")
         else:    
-            current = self.head
-            while current != None:
-                print(current.data,end=' ')
-                current = current.next
+            current_node = self.head 
+            while current_node != None:
+                print(current_node.data,end=' ')
+                current_node = current_node.next
 # Creating an object linked list
 my_list = LinkedList()
 
